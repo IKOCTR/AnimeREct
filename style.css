@@ -1,0 +1,43 @@
+body,h1,h2,p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* обнуляющие стили */
+
+header{
+    color: white;
+    background-color: black;
+    padding: 40px;
+}
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: -2;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: larger;
+}
+div{
+    width: 80%;
+    border: 5px solid black;
+    margin: auto;
+}
+.rec{
+    position: fixed;
+    opacity: 0.2;
+    width: 100%;
+    height: 100vh;
+}
